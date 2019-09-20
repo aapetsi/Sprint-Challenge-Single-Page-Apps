@@ -3,6 +3,7 @@ import TabNav from "./components/TabNav.js";
 import Header from "./components/Header.js";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import WelcomePage from "./components/WelcomePage";
+import CharacterList from "./components/CharacterList";
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       <Header />
       <TabNav />
       <Route exact={true} path="/" component={WelcomePage} />
+      <Route path="/characters" component={CharacterList} />
     </main>
   );
 }
