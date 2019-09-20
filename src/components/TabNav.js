@@ -16,6 +16,7 @@ export default function TabNav() {
       <NavLink to="/">Home Page</NavLink>
       <NavLink to="/characters">Characters</NavLink>
       <NavLink to="/locations">Locations</NavLink>
+      <NavLink to="/search">Search</NavLink>
     </div>
   );
 }
